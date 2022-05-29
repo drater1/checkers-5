@@ -170,7 +170,7 @@ class Net {
 
                     });
                     // x = x.replace(',','  ')
-                    this.pawnChart.innerText = this.x
+                    // this.pawnChart.innerText = this.x
                     this.x = ""
                 }
 
