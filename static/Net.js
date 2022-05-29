@@ -84,26 +84,22 @@ class Net {
                     
                     console.log(this.count);
                     if(this.currentMove == 'white' && this.white == false){
-                        this.waitForMoveScreen.innerText = "White Turn"
+                        this.waitForMoveScreen.innerText = "Przeciwnik ma Ruch"
                         if(this.set == false){
                             this.setTimer()
                             this.set = true
                         }
                         console.log(this.count);
-                        if(this.count < 1){
-                            console.log("kurwaawaaaaaaaa");
-                        }
+                        
                         
                         
                     }if(this.currentMove == 'black' && this.black == false){
-                        this.waitForMoveScreen.innerText = "Black Turn"
+                        this.waitForMoveScreen.innerText = "Przeciwnik ma Ruch"
                         if(this.set == false){
                             this.setTimer()
                             this.set = true
                         }
-                        if(this.count < 1){
-                            console.log("kurwaawaaaaaaaa");
-                        }
+                        
                         
                     }
                     if(this.currentMove == 'white' && this.white == true){
