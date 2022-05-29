@@ -4,7 +4,7 @@ class Net {
         this.statusBox = document.getElementById("statusBox")
         this.loginBox = document.getElementById("loginBox")
         this.waitScreen = document.getElementById("waitScreen")
-        this.pawnChart = document.getElementById("chart")
+        // this.pawnChart = document.getElementById("chart")
         this.username = document.getElementById("username")
         this.waitForMoveScreen = document.getElementById("waitForMoveScreen")
         this.timer = document.getElementById("timer")
@@ -164,14 +164,14 @@ class Net {
                     
                     game.changingPawnsBoard(data.pawnsData)
                     
-                    this.box = data.pawnsData
-                    this.box.forEach(row => {
-                        this.x += '\n' + row
+                    // this.box = data.pawnsData
+                    // this.box.forEach(row => {
+                    //     this.x += '\n' + row
 
-                    });
-                    // x = x.replace(',','  ')
-                    // this.pawnChart.innerText = this.x
-                    this.x = ""
+                    // });
+                    // // x = x.replace(',','  ')
+                    // // this.pawnChart.innerText = this.x
+                    // this.x = ""
                 }
 
             )
